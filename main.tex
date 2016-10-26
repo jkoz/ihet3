@@ -9,15 +9,18 @@
 \usepackage{verbatim}
 \usepackage{placeins}
 \usepackage{float}
+\usepackage{babel}
 \restylefloat{figure}
 \restylefloat{table}
 
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
 
+% Modify Abstract title name from "Abstract" to "EXECUTIVE SUMMARY"
+\addto{\captionsenglish}{\renewcommand{\abstractname}{EXECUTIVE SUMMARY}}
 
-\title{Troubleshooting and Diagnostic Analysis of Earth-mover Scraper --- CAT 637}
-\shorttitle{CAT 637G --- troubleshooting analysis }
+\title{\textbf{TROUBLESHOOTING AND DIAGNOSTIC ANALYSIS OF EARTH-MOVER SCRAPER --- CAT 637G}}
+\shorttitle{CAT 637G --- Troubleshooting analysis }
 \author{Prepared for
 
 Lisa Slywka, Instructor
@@ -37,36 +40,8 @@ School of Applied Trades
 October 31, 2016
 }
 
-% \abstract{Your abstract here.}
+%\abstract{}
     
-\begin{comment}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-You can add inline TODO comments with the todonotes package, like this:
-\todo[inline, color=green!40]{This is an inline comment.}
-
-% refer to table %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ref{tab:widgets}
-
-% mathematics %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
-$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n} = \frac{1}{n}\sum_{i}^{n} X_i$$
-denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
-
-% lists %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{enumerate}
-\item Like this,
-\item and like this.
-\end{enumerate}
-\dots or bullet points \dots
-\begin{itemize}
-\item Like this,
-\item and like this.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{comment}
-
 \begin{document}
 
 \centering The Northern Alberta Institute of Technology\\ Edmonton, Alberta
@@ -86,17 +61,22 @@ denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{
 
 \section{INTRODUCTION}
 
-\subsection{The Significant of Troubleshooting Analysis}
+% problem
+``With today's highly sophisticated machinery and with the advent of mass production, industry can no longer afford a failure, as the cost of downtime is prohibitive.`` \citep[p. 190]{DodPracHyd}. To avoid these unexpected failures, techncians should recognize common symtoms and fix them before equipment breaks down.
 
-Cutting cost, reducing downtime, and extending lifespan of equipment are some business goals in the heavy equipment industry. In order to meet these targets, preventative maintenance can be the best practice; however, depending on environment and workload, equipment can fail at any time between service intervals. For this reason, technicians must equip themselves with appropriate troubleshooting skills.
+\subsection{Purpose}
 
-Hydraulics are a main focus in the heavy equipment maintenance world. Likewise, in CAT 637G, hydraulics are also used in many places, including cushion-hitch, auger, push-pull hydraulic systems. Despite of versatile abilities, hydraulic systems are susceptible to contamination since components are usually exposed to dusty environments. Compared to other hydraulic systems, the powertrain might less prone to contamination since its components are less exposed. Therefore, their service life may be longer than other hydraulic systems, but failures can cause longer downtime. This research will provide some diagnostic instructions to solve hydraulic systems and powertrain issues.
+The goal of this report is to provide essential hydraulic and powertrain troubleshooting skills on Caterpillar scraper 637G. This research is significant due to the popularity of utilizing hydraulics in heavy equipment. As the vast majority of equipment heavily depends on hydraulics to do the job, including powertrain, technicians or students with troubleshooting skill in this field can consolidate their positions or increase the chances of getting a good job. In order to provide an in-depth analysis of the hydraulics and powertrain system, this report will not examine entire the 637G's hydraulic systems, which is not timely feasible.
 
-Understanding how to solve hydraulic and powertrain problems benefits both equipment owners and technicians. The ability to keep equipment in shape helps companies save money for other business goals and builds their reputation. As the vast majority of equipment heavily depends on hydraulics to do the job, including powertrain, technicians or students with troubleshooting skill in this field can consolidate their positions or increase the chances of getting a good job.
+\subsection{Background}
+
+Just like a human body, if the owners and technicians neglect minor problems of equipment, things will get worse. Companies can have a comprehensive preventative maintenance strategy for their fleet; nevertheless, equipment still can fail at any time between service intervals because equipment health heavily relies on working environments. Hydraulic systems are very susceptible to contamination since components, such as cylinder seals are exposed to dusty environments. On the other hand, the powertrain might less prone to contamination as its components are less exposed. Therefore, their service life may be longer than other hydraulic systems, but their failures can cause longer downtime
+
+%Understanding how to solve hydraulic and powertrain problems benefits both equipment owners and technicians. . 
 
 \subsection{Scope}
 
-As the paper has word limitation, the research will cover basic diagnostic instructions for common hydraulics and powertrain issues of CAT 637G. Typically, the focused areas of hydraulics are the cushion-hitch circuit and general hydraulic systems, while the focused area of powertrain is only the torque converter. Besides, this paper also includes some safety measures as a part of troubleshooting procedures.
+Just like other heavy equipment, the 637G scraper uses hydraulics in many places: the bowl, apron, ejector, cushion-hitch, auger, steering, and powertrain. Because of the large amount of  hydraulic implementation used in the 637G, this paper will merely concentrate on the cushion-hitch, auger, and torque converter. Typically, the report will cover the purposes, locations, and basic diagnostic and troubleshooting knowledge for cushion-hitch, auger, and torque converter. Besides, the paper also incorporates safety procedures along with technical troubleshooting measures.
 
 \section{EQUIPMENT DESCRIPTION}
 \label{sec:examples}
