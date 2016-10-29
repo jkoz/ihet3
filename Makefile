@@ -2,6 +2,9 @@
 latexmk:
 	latexmk -pdf -silent main.tex
 
+gen_bib:
+	pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
+
 drawing_pdf:
 	pdflatex flowchart1 --output-format pdf
 
