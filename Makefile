@@ -1,4 +1,5 @@
-
+pandoc_md_docx:
+	pandoc --toc-depth 4 --bibliography=main.bib --csl=apa.csl --toc --reference-docx=ref.docx -s -S main.md -o main.docx
 latexmk:
 	latexmk -pdf -silent main.tex
 
@@ -23,5 +24,5 @@ pandoc_docx:
 clean:
 	rm -f "Diagnosis and Troubleshooting Report.{pdf,odt,doc,docx,aux,log}"
 	rm -f '.~lock.Diagnosis and Troubleshooting Report.odt#'
-	rm -f main.{pdf,aux,log,bbl,blg,dvi,lot,toc,lof,fls,fdb,fls,fdb_latexmk}
+	rm -f main.{pdf,aux,log,bbl,blg,dvi,lot,toc,lof,fls,fdb,fls,fdb_latexmk,docx}
 	rm -f flowchart1.{aux,dvi,fdb_latexmk,fls,lof,lot,log,toc,pdf,jpg}
