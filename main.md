@@ -84,8 +84,7 @@ Gondola. Later, the third edition Mountain Mover was created in 1923.
 The self-propelled scraper was the fourth built. Letourneau continuously
 dedicated his life to improve his creations [@RLMBldng].
 
-![\[fig:mmv\]Mountain Mover with a telescoping bowl was invented in
-June, 1922. [@RLMBldng]](mountain_mover_1922.png){width="\textwidth"}
+![Figure 1: Mountain Mover with a telescoping bowl was invented in June, 1922. [@RLMBldng]](mountain_mover_1922.png){width="\textwidth"}
 
 Components
 ----------
