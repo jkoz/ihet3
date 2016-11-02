@@ -68,7 +68,7 @@ knowledge for cushion-hitch, auger, and torque converter. Besides, the
 paper also incorporates safety procedures along with technical
 troubleshooting measures.
 
-EQUIPMENT DESCRIPTION {#sec:examples}
+EQUIPMENT DESCRIPTION
 =====================
 
 History Background
@@ -168,21 +168,28 @@ temperature, operators have to run the engine at high idle for at least
 5 minutes[@SISCat]. Below table shows common hydraulic faults and
 possible causes.
 
-<span>| l | l |</span> Faults & Posible causes\
-& — The viscosity of the hydraulic oil is incorrect\
-& — The cushion-hitch piston pump is excessively worn\
-& — A restriction exists in a hydraulic oil passage\
-& — An air restriction exists at the hydraulic oil cooler\
-& — There is a leak in the oil line between the tank and hydraulic
-pump.\
-& — The return baffle in the tank is loose or broken.\
-& — There is leakage around the cylinder seals.\
-& — Low level is low\
-& — The hydraulic pump or pump drive shaft has malfunctioned.\
-& — A relief valve has malfunctioned.\
-& — The viscosity of the oil is wrong.\
-& — Loose connection of the oil line on the inlet side of the pump.\
-& — The pump has too much wear.\
++-------------------------------+-----------------------------------------------------------------------+
+| Faults                        | Possible Causes                                                       |
++===============================+=======================================================================+
+| Temperature of the hydraulic  | - The viscosity of the hydraulic oil is incorrect                     |
+| oil is excessively high       | - The cushion-hitch piston pump is excessively worn                   |
+|                               | - A restriction exists in a hydraulic oil passage                     |
+|                               | - An air restriction exists at the hydraulic oil cooler               |
++-------------------------------+-----------------------------------------------------------------------+
+|There is a large amount of air | - There is a leak in the oil line between the tank and hydraulic pump |
+|in the oil                     | - The return baffle in the tank is loose or broken.                   |
+|                               | - There is leakage around the cylinder seals.                         |
++-------------------------------+-----------------------------------------------------------------------+
+| The hydraulic and steering    | - Oil level is low                                                    |
+| pump has no pressure          | - The hydraulic pump or pump drive shaft has malfunctioned.           |
+|                               | - A relief valve has malfunctioned                                    |
++-------------------------------+-----------------------------------------------------------------------+
+| The cushion-hitch pump makes  | - The viscosity of the oil is wrong.                                  |
+| noises                        | - Loose connection of the oil line on the inlet side of the pump.     |
+|                               | - The pump has too much wear.                                         |
++-------------------------------+-----------------------------------------------------------------------+
+
+Table 1: Common cushion-hitch problems and possible causes
 
 ### Auger Hydraulic System
 
@@ -199,5 +206,6 @@ Powertrain
 
 CONCLUSION {#conclusion .unnumbered}
 ==========
+
 REFERENCES
 ==========
