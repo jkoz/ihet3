@@ -169,7 +169,7 @@ cushion-hitch pump, and its control system.
 
 ![**Figure 3**: Cushion-hitch hydraulic components. [@GOASspns]](cushion-hitch-comp-location.png){width="\textwidth"}
 
-Cushion-hitch components includes following: 
+Cushion-hitch components includes following:
 
 1. Accumulators
 
@@ -260,8 +260,87 @@ and other types of fluid couplings utilize a hydrodynamic principal to
 transfer engine torque to the transmission, without a direct mechanical
 link between two components" [@AnglMdrndsl] . Engine torque is transferred
 to transmission by moving fluid at high velocity at low pressure (p. 296).
-A stator is added in the middle of turbine and impeller. The
+A stator added in the middle of turbine and impeller helps to multiply
+engine torque by smoothly redirecting fluid back to impeller. The
 following illustration shows basic components of a torque converter.
+
+[fig5]: stator.jpg
+![**Figure 6**: A stator located between two components can redirect fluid
+back to impeller [@AnglMdrndsl]][fig5]
+
+### Torque Converter Fault Diagnosis
+
+Although the absence of mechanical coupling minimizes wear, a torque
+converter has to deal with overheating and pressure issues. A plugged oil
+cooler or a faulty charge pump can also cause increase in operating
+temperature of torque converter. Temperature can increase significantly if
+oil level is low because of leakage.
+
+Air entering torque converter can also cause overheating. Typically, air
+could penetrate loose pipe connections, or it can just because of system
+is not properly vented. In order to determine the nature of the torque
+converter problems, the first step is to installing one or more pressure
+and temperature gauges at the torque converter and/or transmission.
+[@GOATorq] Below image shows location of pressure tap for the 637G torque
+converter.
+
+[fig6]: tc_tap.jpg
+![**Figure 6**: Pressure tap for the torque converter output [@SISCat]][fig6]
+
+To check for pressure of torque converter, technicians have to do
+following steps:
+
+1. Connect a digital pressure indicator at pressure tap (1).
+
+2. Start and run the tractor and scraper engine at low rpm in neutral
+
+3. The drive wheels must not turn during a stall test. Lower the bowl
+into the ground or put the tractor against a solid object that will not move.
+
+4. Make sure that air pressure is at the normal pressure for operation.
+Push the brake pedal and hold the brake pedal down. Make sure that the parking
+brake and the secondary brake are released.
+
+5. Move the transmission shift lever to SECOND speed position and keep the
+tractor engine at low rpm.
+
+6. Slowly increase the scraper engine rpm to the maximum governor setting.
+The machine will try to move.
+
+7. The scraper engine rpm must be 1920 to 2060 rpm with the torque converter
+in a stall condition.
+
+8. The pressure on the digital pressure indicator at pressure tap (1) must be
+430 Â± 85 kPa (62 Â± 12 psi).
+
+9. Run the machine at low rpm in order to allow power train oil to cool.
+
+10. When this test is complete, place the transmission shift lever in neutral.
+Engage the parking brakes and stop both of the engines. Remove the test equipment.
+
+
+
+Table: **Table 2**: Common cushion-hitch problems and possible causes
+
+
+Problem
+Probable Cause
+Too much leakage in the transmission lubrication circuit (bad seals, etc.).
+Problem
+The torque converter outlet pressure is too high, and transmission lubrication pressure is too low.
+Probable Cause
+There is excessive restriction in the oil cooler.
+Problem
+Torque converter outlet pressure is too low.
+Probable Cause
+The inlet relief valve is open.
+There is excessive leakage in the torque converter.
+Problem
+The oil gets too hot during normal operation.
+Probable Cause
+There is a bad temperature gauge. Make a replacement of the gauge and the sending unit.
+There is not enough oil in the torque converter because the torque converter inlet relief valve is open.
+
 
 CONCLUSION
 ==========
