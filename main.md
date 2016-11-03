@@ -26,6 +26,22 @@ date: October 21, 2016
 
 <!--Things to do when reformatting final docx-->
 <!--1. move table caption to bottom-->
+<!--2. check biblio of GOA -->
+
+LIST OF FIGURES
+============
+
+Figure 1: Mountain Mover with a telescoping bowl was invented in
+June, 1922. [@RLMBldng]
+
+Figure 2: A modern tractor earthmoving scraper Caterpillar 637G
+[@THMPIndst]; an illustration of scraper’s components
+
+Figure 3: Cushion-hitch hydraulic components. [@GOASspns]
+
+Figure 4: Cushion-hitch hydraulic system. [@SISCat]
+
+<!--Figure 5: Hydraulic motors and control modules of auger is in the Caterpillar 637G [@hvyqpmtrg]-->
 
 
 INTRODUCTION
@@ -71,18 +87,24 @@ the engine and transmission.
 Scope
 -----
 
-Just like other heavy equipment, the 637G scraper uses hydraulics in
-many places: the bowl, apron, ejector, cushion-hitch, auger, steering,
-and powertrain. Because of the large amount of hydraulic implementation
-used in the 637G, this paper will merely concentrate on the 637G's
-cushion-hitch, auger, and torque converter. Typically, the report will
-cover the purposes, locations, and basic diagnostics and troubleshooting
-information for cushion-hitch, auger, and torque converter. Besides, the
-paper also incorporates safety procedures along with technical
-troubleshooting measures.
+The 637G scraper uses hydraulics in many places: the bowl, apron, ejector,
+cushion-hitch, auger, steering, and powertrain. Because of the large amount of
+hydraulic implementation used in the 637G, this paper will merely concentrate on
+the 637G's cushion-hitch, auger, and torque converter. Typically, the report
+will cover the purposes, locations, and basic diagnostics and troubleshooting
+instructions for cushion-hitch hydraulics and torque converter. Besides, the
+paper also incorporates safety procedures along with technical troubleshooting
+measures.
 
 EQUIPMENT DESCRIPTION
 =====================
+
+This section gives basic knowledge about earthmoving scrapers, such as the
+history, basic operations, and major components. Hopefully, this section assists
+technicians who are not familiar with scrapers can have a quick view of scrapers
+before starting to dig into cushion-hitch hydraulic systems and torque
+converter.
+
 
 History Background
 ------------------
@@ -90,29 +112,31 @@ History Background
 "The invention of the scraper, as we know it today, is credited to Robert
 Gilmour LeTourneau, who had established his own earthmoving business in
 1922." [@KthGnterth p. 59] Robert and his brother-in-law Ray Peterson
-built the first earthmoving scraper in June, 1922 in Stockton, California.
-After the first scraper was built by Letourneau in 1922 , the author
-created a second version of earthmoving scraper, nicknamed the Gondola.
-Later, the third edition Mountain Mover was created in 1923. The
-self-propelled scraper was the fourth built. Letourneau continuously
-dedicated his life to improve his creations [@RLMBldng].
+built the first earthmoving scraper in June, 1922 in Stockton, California. After
+the first scraper was built by Letourneau in 1922 [(Figure 1)](#fig1), the
+author created a second version of earthmoving scraper, nicknamed the Gondola.
+Later, the third edition Mountain Mover was created in 1923. The self-propelled
+scraper was the fourth built. Letourneau continuously dedicated his life to
+improve his creations [@RLMBldng].
 
-![**Figure 1**: Mountain Mover with a telescoping bowl was invented in June, 1922. [@RLMBldng]](mountain_mover_1922.png){width="\textwidth"}
+[fig1]: mountain_mover_1922.png
+![**Figure 1**: Mountain Mover with a telescoping bowl was invented in June, 1922. [@RLMBldng]][fig1]
 
 Components
 ----------
 
-The CAT 637G is a typical earthmoving scraper, designed for quick
-loading, hauling, dumping, and spreading of loose material. The below
-picture is a illustration of 637G.
+The CAT 637G is a typical earthmoving scraper, designed for quick loading,
+hauling, dumping, and spreading of loose material. The scraper has a excellent
+self-loading capability in a wide range of material. It is designed to load
+material with auger mechanism which allows material distributed throughout the
+bowl. Typically, an earthmoving scraper has two parts: tractor and scraper. Some
+scrapers, such as the CAT 621K, have only one engine on the tractor; however,
+for heavy duty applications, the CAT 637G have two engines located front and
+back of the bowl.
 
-![**Figure 2**: A modern tractor earthmoving scraper Caterpillar 637G [@THMPIndst]; an illustration of scraper’s components [@DTMTrmy]](scraper.png){width="\textwidth"}
 
-The CAT 637G has a excellent self-loading capability in a wide range of
-material. It is designed to load material with auger mechanism which
-allows material distributed throughout the bowl. Typically, an earthmoving
-scraper has two parts: tractor and scraper. Followings are some major
-components can be found to a scraper. 
+[fig2]: scraper.png
+![**Figure 2**: A modern tractor earthmoving scraper Caterpillar 637G [@THMPIndst]; an illustration of scraper’s components [@DTMTrmy]][fig2]
 
 -   A bowl is responsible for loading and carrying material with the
     help of cutting edge and auger mechanism.
@@ -129,27 +153,45 @@ components can be found to a scraper.
 DIAGNOSTIC AND TROUBLESHOOTING ANALYSIS
 =======================================
 
-Hydraulic Systems
------------------
+Cushion-hitch Hydraulic System and Service
+------------------------------------------
 
-The 637G uses hydraulics in various places: steering, cushion-hitch,
-bowl, apron, ejector, auger, and bail. As mentioned in the previous
-section, only cushion-hitch and auger hydraulic systems will be
-examined.
+The 637G uses hydraulics in various places: steering, cushion-hitch, bowl,
+apron, ejector, auger, and bail. As mentioned in the previous section, only
+cushion-hitch hydraulic system will be examined.
 
-### Cushion-hitch Hydraulic System and Service
+### Cushion-hitch Hydraulic System
 
-“The function of a cushion hitch system,…, is to act as a connection
-device when it is mounted between the scraper.”[@GOASspns]. Below
-pictures taken from HeavyEquipment.org shows the left and right side of
-scraper gooseneck, cushion-hitch pump, and its control system.
+"The function of a cushion hitch system,..., is to act as a connection device
+when it is mounted between the scraper" [@GOASspns]. Below pictures taken from
+HeavyEquipment.org shows the left and right side of scraper gooseneck,
+cushion-hitch pump, and its control system.
 
 ![**Figure 3**: Cushion-hitch hydraulic components. [@GOASspns]](cushion-hitch-comp-location.png){width="\textwidth"}
 
-Cushion-hitch components includes following: (1) Accumulators, (2) Load
-cylinders, (3) Tractor bracket assembly, (4) Scraper hitch assembly, (5)
-Lower link, (6) Upper link, (7) Gooseneck, (8) Leveling valve, (9)
-Cushion-hitch pump, (10) Lubrication points, (11) Cushion-hitch button.
+Cushion-hitch components includes following: 
+
+1. Accumulators
+
+2. Load cylinders
+
+3. Tractor bracket assembly
+
+4. Scraper hitch assembly
+
+5. Lower link
+
+6. Upper link
+
+7. Gooseneck
+
+8. Leveling valve
+
+9. Cushion-hitch pump
+
+10. Lubrication points
+
+11. Cushion-hitch button.
 
 Two nitrogen accumulators help to dampen vertical movement by
 compressing nitrogen gas, and constantly providing oil back and forth to
@@ -162,15 +204,23 @@ two accumulators.
 
 ![**Figure 4**: Cushion-hitch hydraulic system. [@SISCat]](cushion-hitch.jpg)
 
+"When working on suspension systems that use gas/suspension cylinders, be sure
+that all the nitrogen in the suspension cylinder has been released before
+checking the oil level." [@AnglMdrndsl p. 550]. Indeed, this is true for the
+637G as well. Although the engine is off, hydraulic oil is still under high
+pressure because of the nitrogen accummulators. Thus, technicians must make sure
+that all the nitrogen pressure is dissipated before overhauling cushion-hitch
+hydraulic system.
+
 According to Caterpillar, as a rule of thumb, the first step of
-servicing any hydraulic systems, such as cushion-hitch, auger is to
+servicing any hydraulic systems, such as a cushion-hitch, is to
 perform a visual inspection, which will help to identify any leakage,
 component damage, loose or missing components. After that, operation
 tests can be done to find leakage in the system, a failed valve or a
 failed pump. The hydraulic oil should be warmed up to 115 to 125F before
 performing do any test [@SISCat]. In order to reach normal operating
 temperature, operators have to run the engine at high idle for at least
-5 minutes[@SISCat]. Below table shows common hydraulic faults and
+ five minutes [@SISCat]. Below table shows common hydraulic faults and
 possible causes.
 
 +-------------------------------+-----------------------------------------------------------------------+
@@ -196,19 +246,24 @@ possible causes.
 
 Table: **Table 1**: Common cushion-hitch problems and possible causes
 
-### Auger Hydraulic System
+Torque Converter Fundamentals and Service
+-----------------------------------------
 
-Following pictures taken from the HeavyEquipments.com manual shows the
-optional 637G’s attachment: an auger.
+### Torque Converter Fundamentals
 
-![**Figure 5**: Hydraulic motors and control modules of auger is in the Caterpillar 637G [@hvyqpmtrg]](auger_comps.png){width="\textwidth"}
+The torque converter is the first part of powershift transmission which
+responsible for transferring and multiplying engine torque. The basic
+working principle of torque converter is just like taking a fan which is
+plugged into the wall and blowing another unplugged fan. However, instead
+of air, the torque converter uses fluid as its medium. "Torque converters
+and other types of fluid couplings utilize a hydrodynamic principal to
+transfer engine torque to the transmission, without a direct mechanical
+link between two components" [@AnglMdrndsl] . Engine torque is transferred
+to transmission by moving fluid at high velocity at low pressure (p. 296).
+A stator is added in the middle of turbine and impeller. The
+following illustration shows basic components of a torque converter.
 
-Powertrain
-----------
-
-### Torque Converter
-
-CONCLUSION {#conclusion .unnumbered}
+CONCLUSION
 ==========
 
 REFERENCES
