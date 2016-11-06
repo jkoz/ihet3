@@ -169,29 +169,18 @@ cushion-hitch pump, and its control system.
 
 ![**Figure 3**: Cushion-hitch hydraulic components. [@GOASspns]](cushion-hitch-comp-location.png){width="\textwidth"}
 
-Cushion-hitch components includes following:
++-----------------------------+---------------------------+
+|                             |                           |
++=============================+===========================+
+| 1. Accumulators             | 6. Upper link             |
+| 2. Load cylinders           | 7. Gooseneck              |
+| 3. Tractor bracket assembly | 8. Leveling valve         |
+| 4. Scraper hitch assembly   | 9. Cushion-hitch pump     |
+| 5. Lower link               | 10. Lubrication points    |
+|                             | 11. Cushion-hitch button. |
 
-1. Accumulators
+Table: **Table 2**: Cushion-hitch components
 
-2. Load cylinders
-
-3. Tractor bracket assembly
-
-4. Scraper hitch assembly
-
-5. Lower link
-
-6. Upper link
-
-7. Gooseneck
-
-8. Leveling valve
-
-9. Cushion-hitch pump
-
-10. Lubrication points
-
-11. Cushion-hitch button.
 
 Two nitrogen accumulators help to dampen vertical movement by
 compressing nitrogen gas, and constantly providing oil back and forth to
@@ -223,26 +212,30 @@ temperature, operators have to run the engine at high idle for at least
  five minutes [@SISCat]. Below table shows common hydraulic faults and
 possible causes.
 
-+-------------------------------+-----------------------------------------------------------------------+
-| Faults                        | Possible Causes                                                       |
-+===============================+=======================================================================+
-| Temperature of the hydraulic  | - The viscosity of the hydraulic oil is incorrect                     |
-| oil is excessively high       | - The cushion-hitch piston pump is excessively worn                   |
-|                               | - A restriction exists in a hydraulic oil passage                     |
-|                               | - An air restriction exists at the hydraulic oil cooler               |
-+-------------------------------+-----------------------------------------------------------------------+
-|There is a large amount of air | - There is a leak in the oil line between the tank and hydraulic pump |
-|in the oil                     | - The return baffle in the tank is loose or broken.                   |
-|                               | - There is leakage around the cylinder seals.                         |
-+-------------------------------+-----------------------------------------------------------------------+
-| The hydraulic and steering    | - Oil level is low                                                    |
-| pump has no pressure          | - The hydraulic pump or pump drive shaft has malfunctioned.           |
-|                               | - A relief valve has malfunctioned                                    |
-+-------------------------------+-----------------------------------------------------------------------+
-| The cushion-hitch pump makes  | - The viscosity of the oil is wrong.                                  |
-| noises                        | - Loose connection of the oil line on the inlet side of the pump.     |
-|                               | - The pump has too much wear.                                         |
-+-------------------------------+-----------------------------------------------------------------------+
++-------------------------+-----------------------------------------------------+
+| Faults                  | Possible Causes                                     |
++=========================+=====================================================+
+| Temperature of the      | - The viscosity of the hydraulic oil is incorrect   |
+| hydraulic oil is        | - The cushion-hitch piston pump is excessively worn |
+| excessively high        | - A restriction exists in a hydraulic oil passage   |
+|                         | - An air restriction exists at the hydraulic oil    |
+|                         | cooler                                              |
++-------------------------+-----------------------------------------------------+
+| There is a large amount | - There is a leak in the oil line between the tank  |
+| of air in the oil       | and hydraulic pump                                  |
+|                         | - The return baffle in the tank is loose or broken. |
+|                         | - There is leakage around the cylinder seals.       |
++-------------------------+-----------------------------------------------------+
+| The hydraulic and       | - Oil level is low                                  |
+| steering pump has no    | - The hydraulic pump or pump drive shaft has        |
+| pressure                | malfunctioned.                                      |
+|                         | - A relief valve has malfunctioned                  |
++-------------------------+-----------------------------------------------------+
+| The cushion-hitch pump  | - The viscosity of the oil is wrong.                |
+| makes noises            | - Loose connection of the oil line on the inlet     |
+|                         | side of the pump.                                   |
+|                         | - The pump has too much wear.                       |
+
 
 Table: **Table 1**: Common cushion-hitch problems and possible causes
 
@@ -265,7 +258,7 @@ engine torque by smoothly redirecting fluid back to impeller. The
 following illustration shows basic components of a torque converter.
 
 [fig5]: stator.jpg
-![**Figure 6**: A stator located between two components can redirect fluid
+![**Figure 5**: A stator located between two components can redirect fluid
 back to impeller [@AnglMdrndsl]][fig5]
 
 ### Torque Converter Fault Diagnosis
@@ -318,29 +311,31 @@ in a stall condition.
 10. When this test is complete, place the transmission shift lever in neutral.
 Engage the parking brakes and stop both of the engines. Remove the test equipment.
 
+Table: **Table 2**: Common torque converter problems and possible causes
 
-
-Table: **Table 2**: Common cushion-hitch problems and possible causes
-
-
-Problem
-Probable Cause
-Too much leakage in the transmission lubrication circuit (bad seals, etc.).
-Problem
-The torque converter outlet pressure is too high, and transmission lubrication pressure is too low.
-Probable Cause
-There is excessive restriction in the oil cooler.
-Problem
-Torque converter outlet pressure is too low.
-Probable Cause
-The inlet relief valve is open.
-There is excessive leakage in the torque converter.
-Problem
-The oil gets too hot during normal operation.
-Probable Cause
-There is a bad temperature gauge. Make a replacement of the gauge and the sending unit.
-There is not enough oil in the torque converter because the torque converter inlet relief valve is open.
-
++-----------------------------+---------------------------------------------------+
+| Faults                      | Possible Causes                                   |
++=============================+===================================================+
+| The torque converter outlet | - Too much leakage in the transmission lubrication  |
+| pressure is correct, but    | circuit (bad seals, etc.).                        |
+| transmission lubrication    |                                                   |
+| pressure is too low.        |                                                   |
++-----------------------------+---------------------------------------------------+
+| The torque converter outlet | - There is excessive restriction in the oil cooler. |
+| pressure is too high, and   |                                                   |
+| transmission lubrication    |                                                   |
+| pressure is too low.        |                                                   |
++-----------------------------+---------------------------------------------------+
+| Torque converter outlet     | - The inlet relief valve is open.                 |
+| pressure is too low.        | - There is excessive leakage in the torque        |
+|                             | converter.                                        |
++-----------------------------+---------------------------------------------------+
+| The oil gets too hot during | - There is a bad temperature gauge. Make a        |
+| normal operation.           | replacement of the gauge and the sending unit.    |
+|                             | - There is not enough oil in the torque converter |
+|                             | because the torque converter inlet relief valve   |
+|                             | is open.                                          |
++-----------------------------+---------------------------------------------------+
 
 CONCLUSION
 ==========
