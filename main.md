@@ -193,6 +193,8 @@ two accumulators.
 
 ![**Figure 4**: Cushion-hitch hydraulic system. [@SISCat]](cushion-hitch.jpg)
 
+### Cushion-hitch Fault Diagnosis
+
 "When working on suspension systems that use gas/suspension cylinders, be sure
 that all the nitrogen in the suspension cylinder has been released before
 checking the oil level." [@AnglMdrndsl p. 550]. Indeed, this is true for the
@@ -304,7 +306,7 @@ The machine will try to move.
 in a stall condition.
 
 8. The pressure on the digital pressure indicator at pressure tap (1) must be
-430 Â± 85 kPa (62 Â± 12 psi).
+430 ± 85 kPa (62 ± 12 psi).
 
 9. Run the machine at low rpm in order to allow power train oil to cool.
 
@@ -313,32 +315,42 @@ Engage the parking brakes and stop both of the engines. Remove the test equipmen
 
 Table: **Table 2**: Common torque converter problems and possible causes
 
-+-----------------------------+---------------------------------------------------+
-| Faults                      | Possible Causes                                   |
-+=============================+===================================================+
++-----------------------------+-----------------------------------------------------+
+| Faults                      | Possible Causes                                     |
++=============================+=====================================================+
 | The torque converter outlet | - Too much leakage in the transmission lubrication  |
-| pressure is correct, but    | circuit (bad seals, etc.).                        |
-| transmission lubrication    |                                                   |
-| pressure is too low.        |                                                   |
-+-----------------------------+---------------------------------------------------+
+| pressure is correct, but    | circuit (bad seals, etc.).                          |
+| transmission lubrication    |                                                     |
+| pressure is too low.        |                                                     |
++-----------------------------+-----------------------------------------------------+
 | The torque converter outlet | - There is excessive restriction in the oil cooler. |
-| pressure is too high, and   |                                                   |
-| transmission lubrication    |                                                   |
-| pressure is too low.        |                                                   |
-+-----------------------------+---------------------------------------------------+
-| Torque converter outlet     | - The inlet relief valve is open.                 |
-| pressure is too low.        | - There is excessive leakage in the torque        |
-|                             | converter.                                        |
-+-----------------------------+---------------------------------------------------+
-| The oil gets too hot during | - There is a bad temperature gauge. Make a        |
-| normal operation.           | replacement of the gauge and the sending unit.    |
-|                             | - There is not enough oil in the torque converter |
-|                             | because the torque converter inlet relief valve   |
-|                             | is open.                                          |
-+-----------------------------+---------------------------------------------------+
+| pressure is too high, and   |                                                     |
+| transmission lubrication    |                                                     |
+| pressure is too low.        |                                                     |
++-----------------------------+-----------------------------------------------------+
+| Torque converter outlet     | - The inlet relief valve is open.                   |
+| pressure is too low.        | - There is excessive leakage in the torque          |
+|                             | converter.                                          |
++-----------------------------+-----------------------------------------------------+
+| The oil gets too hot during | - There is a bad temperature gauge. Make a          |
+| normal operation.           | replacement of the gauge and the sending unit.      |
+|                             | - There is not enough oil in the torque converter   |
+|                             | because the torque converter inlet relief valve     |
+|                             | is open.                                            |
+|                             | - There is excessive oil in transmission case       |
+|                             | because of excessive leakage in the torque          |
+|                             | converter.                                          |
+|                             | - There is excessive oil in transmission case       |
+|                             | because the flow of oil through the magnetic        |
+|                             | screen is stopped.                                  |
+|                             | - There is an excessive restriction in the oil      |
+|                             | lines or the oil cooler.                            |
++-----------------------------+-----------------------------------------------------+
 
 CONCLUSION
 ==========
+
+
 
 REFERENCES
 ==========
