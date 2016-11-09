@@ -49,9 +49,11 @@ INTRODUCTION
 
 "With today's highly sophisticated machinery and with the advent of mass
 production, industry can no longer afford a failure, as the cost of
-downtime is prohibitive." [@DodPracHyd p. 190]. To avoid these
-unexpected failures, techncians should recognize common symtoms and fix
-them before equipment breaks down.
+downtime is prohibitive." [@DodPracHyd p. 190]. To avoid these unexpected
+failures, technicians should recognize common equipment's symptoms and fix
+them before equipment breaks down. By doing this, technicians help
+organizations save time and money that they can use to invest on other
+things. This paper introduces typical troubleshooting practices on 
 
 Purpose
 -------
@@ -162,10 +164,15 @@ cushion-hitch hydraulic system will be examined.
 
 ### Cushion-hitch Hydraulic System
 
-"The function of a cushion hitch system,..., is to act as a connection device
-when it is mounted between the scraper" [@GOASspns]. Below pictures taken from
-HeavyEquipment.org shows the left and right side of scraper gooseneck,
-cushion-hitch pump, and its control system.
+"The function of a cushion hitch system,..., is to act as a connection
+device when it is mounted between the scraper and tractor" [@GOASspns].
+The cushion-hitch is belong to the suspension system which helps equipment
+to maintain traction, transfer load during breaking and accelerating,
+provides an articulation point for steering and provide a comfort ride for
+drivers. The cushion hitch maintains a certain height for scrapers by
+continuously adding and removing from the load cylinder. Below pictures
+taken from HeavyEquipment.org shows the left and right side of scraper
+gooseneck, cushion-hitch pump, and its control system.
 
 ![**Figure 3**: Cushion-hitch hydraulic components. [@GOASspns]](cushion-hitch-comp-location.png){width="\textwidth"}
 
@@ -184,12 +191,14 @@ Table: **Table 2**: Cushion-hitch components
 
 Two nitrogen accumulators help to dampen vertical movement by
 compressing nitrogen gas, and constantly providing oil back and forth to
-the load cylinder to stablize the equipment. The load cylinder lifts the
-hitch assembly off the tractor bracket in cushion ride mode. In lockdown
-mode, load cylinder is bottomed, providing a rigid connection between
-the scraper and tractor. As shown in below schematic taken from SIS
-portal, the 637G cushion-hitch features a load-sensing pump working with
-two accumulators.
+the load cylinder to stabilize the equipment. The load cylinder lifts the
+hitch assembly off the tractor bracket in cushion ride mode so that the
+equipment can easily move to other working sites. In lockdown mode, load
+cylinder is bottomed, providing a rigid connection between the scraper and
+tractor. In CAT 637G, operators can also control the height of cutting
+edge by varying the oil flow to the load cylinder. As shown in below
+schematic taken from SIS portal, the 637G cushion-hitch features
+a load-sensing pump working with two accumulators.
 
 ![**Figure 4**: Cushion-hitch hydraulic system. [@SISCat]](cushion-hitch.jpg)
 
@@ -211,7 +220,7 @@ tests can be done to find leakage in the system, a failed valve or a
 failed pump. The hydraulic oil should be warmed up to 115 to 125F before
 performing do any test [@SISCat]. In order to reach normal operating
 temperature, operators have to run the engine at high idle for at least
- five minutes [@SISCat]. Below table shows common hydraulic faults and
+five minutes [@SISCat]. Below table shows common hydraulic faults and
 possible causes.
 
 +-------------------------+-----------------------------------------------------+
@@ -237,7 +246,13 @@ possible causes.
 | makes noises            | - Loose connection of the oil line on the inlet     |
 |                         | side of the pump.                                   |
 |                         | - The pump has too much wear.                       |
-
++-------------------------+-----------------------------------------------------+
+| Selector valve does not | - Piston in selector valve does not move            |
+| automatically go to     | - Dirt in the orifice in the body of the selector   |
+| lockdown position when  | valve.                                              |
+| engine is stopped       |                                                     |
+|                         |                                                     |
++-------------------------+-----------------------------------------------------+
 
 Table: **Table 1**: Common cushion-hitch problems and possible causes
 
@@ -255,9 +270,15 @@ and other types of fluid couplings utilize a hydrodynamic principal to
 transfer engine torque to the transmission, without a direct mechanical
 link between two components" [@AnglMdrndsl] . Engine torque is transferred
 to transmission by moving fluid at high velocity at low pressure (p. 296).
-A stator added in the middle of turbine and impeller helps to multiply
-engine torque by smoothly redirecting fluid back to impeller. The
-following illustration shows basic components of a torque converter.
+
+When the engine first starts, torque is transferred from the engine to the
+impeller. The impeller rotates causing the turbine rotates. The torque is
+now transfer from the turbine to the transmission. Initially, when the
+impeller rotates and the turbine is stationary, the fluid in torque
+converter can be turbulent. Therefore, a stator added in the middle of
+turbine and impeller, smoothly redirecting fluid from turbine back to
+impeller; thus, multiplying engine torque. The following illustration
+shows basic components of a torque converter.
 
 [fig5]: stator.jpg
 ![**Figure 5**: A stator located between two components can redirect fluid
@@ -340,11 +361,19 @@ Table: **Table 2**: Common torque converter problems and possible causes
 |                             | - There is excessive oil in transmission case       |
 |                             | because of excessive leakage in the torque          |
 |                             | converter.                                          |
-|                             | - There is excessive oil in transmission case       |
-|                             | because the flow of oil through the magnetic        |
-|                             | screen is stopped.                                  |
 |                             | - There is an excessive restriction in the oil      |
 |                             | lines or the oil cooler.                            |
++-----------------------------+-----------------------------------------------------+
+| Low stall speed             | - Engine performance is not correct                 |
+|                             | - The oil is cold                                   |
++-----------------------------+-----------------------------------------------------+
+| High stall speed in both    | - The oil level is low                              |
+| direction                   | - There is air in the oil                           |
+|                             | - Clutches are slipping                             |
++-----------------------------+-----------------------------------------------------+
+| High stall speed in one     | - There is a leak in the clutch circuit.            |
+| direction                   | - There is a clutch failure in the gear that has a  |
+|                             | high stall speed.                                   |
 +-----------------------------+-----------------------------------------------------+
 
 CONCLUSION
