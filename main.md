@@ -155,6 +155,19 @@ back of the bowl.
 DIAGNOSTIC AND TROUBLESHOOTING ANALYSIS
 =======================================
 
+Generic Troubleshooting Process
+-------------------------------
+
+Sometimes, it is hard to find a root cause of certain equipment problems.
+Incompetence technicians may go straight to replace the broken components.
+This approach is not brilliant. For example, if a filter is clogged, oil
+will become hot. If a technician is just replace the filter without digging
+why the filter is plugged, he or she will replaces that filter second time.
+There are various root reasons causing oil filter clogged, such as incorrect
+oil viscosity, contamination, metal-to-metal contacts. Thus, big companies
+always have a good finding process chart for technicians' references.
+
+
 Cushion-hitch Hydraulic System and Service
 ------------------------------------------
 
@@ -208,7 +221,7 @@ a load-sensing pump working with two accumulators.
 that all the nitrogen in the suspension cylinder has been released before
 checking the oil level." [@AnglMdrndsl p. 550]. Indeed, this is true for the
 637G as well. Although the engine is off, hydraulic oil is still under high
-pressure because of the nitrogen accummulators. Thus, technicians must make sure
+pressure because of the nitrogen accumulators. Thus, technicians must make sure
 that all the nitrogen pressure is dissipated before overhauling cushion-hitch
 hydraulic system.
 
