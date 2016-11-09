@@ -1,5 +1,6 @@
 pandoc_md_docx:
 	pandoc --toc-depth 4 --bibliography=main.bib --csl=apa.csl --toc --reference-docx=ref.docx -s -S main.md -o main.docx
+
 latexmk:
 	latexmk -pdf -silent main.tex
 
@@ -8,6 +9,7 @@ gen_bib:
 
 drawing_pdf:
 	pdflatex flowchart1 --output-format pdf
+	convert -trim -quality 100 -density 300 flowchart1.pdf flowchart1.jpg
 
 drawing_jpg: drawing_pdf
 	convert -verbose -density 300 -trim flowchart1.pdf -quality 100 -flatten flowchart1.jpg

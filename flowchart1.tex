@@ -1,72 +1,47 @@
-\documentclass[a4paper,man,natbib]{article}
+\documentclass[a4paper,man]{article}
+
 
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{verbatim}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
-
-
-\begin{comment}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-You can add inline TODO comments with the todonotes package, like this:
-\todo[inline, color=green!40]{This is an inline comment.}
-
-% refer to table %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ref{tab:widgets}
-
-% mathematics %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
-$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n} = \frac{1}{n}\sum_{i}^{n} X_i$$
-denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
-
-% lists %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{enumerate}
-\item Like this,
-\item and like this.
-\end{enumerate}
-\dots or bullet points \dots
-\begin{itemize}
-\item Like this,
-\item and like this.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{comment}
-
+\pagestyle{empty}
 
 
 \begin{document}
-
 % Define block styles
-\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
-\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{decision} = [diamond, draw, fill=yellow!30, text width=6em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!30, text width=7em, text centered, minimum height=4em]
 \tikzstyle{line} = [draw, -latex']
-\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm, minimum height=2em]
+\tikzstyle{start} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=green!30]
+\tikzstyle{stop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
     
-\begin{tikzpicture}[node distance = 2cm, auto]
+\begin{tikzpicture}[node distance = 2.5cm, auto]
     % Place nodes
-    \node [block] (init) {Initialize model};
-    \node [cloud, left of=init] (expert) {expert};
-    \node [cloud, right of=init] (system) {system};
-    \node [block, below of=init] (identify) {identify candidate models};
-    \node [block, below of=identify] (evaluate) {evaluate candidate models};
-    \node [block, left of=evaluate, node distance=3cm] (update) {update model};
-    \node [decision, below of=evaluate] (decide) {is best candidate better?};
-    \node [block, below of=decide, node distance=3cm] (stop) {stop};
+    \node [start] (init) {Received work order};
+    \node [block, below of=init] (analyze) {Analyze knowledge to date};
+    \node [block, below of=analyze] (test) {Conduct test};
+
+    \node [decision, below of=test] (decide) {Fault located?};
+    \node [block, below of=decide, node distance=3cm] (repair) {Repair};
+    \node [block, below of=repair] (testoperation) {Test operation};
+    \node [block, below of=testoperation] (record) {Record fault and diagnosis};
+    \node [stop, below of=record] (analyzerecord) {Analyze fault records};
+
     % Draw edges
-    \path [line] (init) -- (identify);
-    \path [line] (identify) -- (evaluate);
-    \path [line] (evaluate) -- (decide);
-    \path [line] (decide) -| node [near start] {yes} (update);
-    \path [line] (update) |- (identify);
-    \path [line] (decide) -- node {no}(stop);
-    \path [line,dashed] (expert) -- (init);
-    \path [line,dashed] (system) -- (init);
-    \path [line,dashed] (system) |- (evaluate);
+    \path [line] (init) -- (analyze);
+    \path [line] (analyze) -- (test);
+    \path [line] (test) -- (decide);
+
+    \path [line] (decide.west) -- (-3, -8) -- node {No} (-3, -2.5) -- (analyze);
+    \path [line] (0, -17.5) -- (3, -17.5) -- node [rotate=90, above] {First line maintenance} (3, -1) -- (0, -1);
+
+    \path [line] (decide) -- node {Yes}(repair);
+    \path [line] (repair) -- (testoperation);
+    \path [line] (testoperation) -- (record);
+    \path [line] (record) -- (analyzerecord);
+
 \end{tikzpicture}
 
 \end{document}
-
-

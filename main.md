@@ -167,6 +167,7 @@ There are various root reasons causing oil filter clogged, such as incorrect
 oil viscosity, contamination, metal-to-metal contacts. Thus, big companies
 always have a good finding process chart for technicians' references.
 
+![**Figure 3**: Flow chart illustrates the process of fault finding](flowchart1.jpg)
 
 Cushion-hitch Hydraulic System and Service
 ------------------------------------------
