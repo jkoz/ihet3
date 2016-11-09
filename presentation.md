@@ -1,4 +1,7 @@
-Length: 20m = 15 present + 5 questions
-November 23 - 8:45
+- Length: 20m = 15 present + 5 questions
+- Final Draft: November 23 - 8:45
+- Presentation: November 30 - 9:15
 - 10 slides
     - 5 slides for findings
+- Give a reason for audience why they attend this presentation
+- Location: J208
