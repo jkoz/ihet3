@@ -393,6 +393,13 @@ Table: **Table 2**: Common torque converter problems and possible causes
 CONCLUSION
 ==========
 
+In the heavy equipment world, although a small mistake can lead to
+catastrophic equipment break down, such as incorrectly back off system
+pressure relief upon replacing a new pump, if technicians are skillful,
+they can save companies time and money. Preventative maintenance is a good
+practice, yet there is always a chance equipment breaking down on duty.
+This phenomenon happens quite often, and the CAT 637G faces the same
+problems. Hopefully, the finding in this paper somewhat provides a 
 
 
 REFERENCES
