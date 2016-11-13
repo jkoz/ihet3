@@ -13,20 +13,41 @@ author:
     - Industrial Heavy Equipment Technician Program
     - School of Applied Trades
 toc-title: 'Table of Contents'
-date: October 21, 2016
+date: November 23, 2016
+abstract: |
+    12025 - 105 Street\
+    Edmonton, AB T5G 2N6\
+    \
+    \
+    November 23, 2016\
+    \
+    \
+    Ms. Lisa Slywka, Instructor, English and Communications\
+    School of Applied Sciences of Technology\
+    Northern Alberta Institute of Technology\
+    11762 - 106 Street\
+    Edmonton, AB T5G 2R1\
+    \
+    Dear Ms. Slywka:\
+    \
+    I am writing regard to a diagnosis and troubleshooting report for the Caterpillar 637G. The report collects reliable sources about common troubleshooting instructions for the scraper. This report will help HET technicians and students familiarize themselves with fixing common cushion-hitch hydraulic and torque converter problems. Thus, they can use these knowledge in their future jobs.\
+    \
+    The objective of the report is to provide basic troubleshooting skills for cushion-hitch and torque converter in the CAT 637G. In order to make it easy to comprehend the fixing procedures, the report also gives a quick explanation of the components and their functions. The report goes through following major sections:\
+        - Equipment description\
+        - Diagnostic and troubleshooting analysis\
+            - Generic troubleshooting process\
+            - Cushion-hitch hydraulic system and services\
+            - Torque converter fundamentals and services\
+    \
+    Citations from many reliable sources, such as the SIS web portal, articles, modules, and books are incorporated into the report. Basically, the paper utilizes information from the SIS portal as its first priority because it is more specific to my equipment. On the other hand, books, such as Heavy Equipment Systems are reliable sources for researching generic troubleshooting procedures.\
+    \
+    Thank you for creating an opportunity to research a diagnosis and troubleshooting report on the CAT 637G. If you have any further questions, please do not hesitate to contact me via email tai.t@hotmail.com. \
+    \
+    Your sincerely,\
+    \
+    \
+    Tai Tran, 200222333\
 ...
-
-<!--TODO LIST: markdown to docx -->
-<!--- List of Figures-->
-<!--list of tables-->
-<!--reference of table-->
-
-<!--Command used during prepare -->
-<!--Join 2 images: convert -gravity center 637G_scraper.png scraper_components.png -append o.png-->
-
-<!--Things to do when reformatting final docx-->
-<!--1. move table caption to bottom-->
-<!--2. check biblio of GOA -->
 
 LIST OF FIGURES
 ============
@@ -161,10 +182,10 @@ Generic Troubleshooting Process
 Sometimes, it is hard to find a root cause of certain equipment problems.
 Incompetence technicians may go straight to replace the broken components.
 This approach is not brilliant. For example, if a filter is clogged, oil
-will become hot. If a technician is just replace the filter without digging
-why the filter is plugged, he or she will replaces that filter second time.
-There are various root reasons causing oil filter clogged, such as incorrect
-oil viscosity, contamination, metal-to-metal contacts. Thus, big companies
+will become hot. If a technician just replaces the filter without digging
+why the filter is plugged, he or she will replace that filter second time.
+There are various reasons causing oil filter clogged, such as incorrect
+oil viscosity, contamination, or metal-to-metal contacts. Thus, big companies
 always have a good finding process chart for technicians' references.
 
 ![**Figure 3**: Flow chart illustrates the process of fault finding](flowchart1.jpg)
@@ -393,14 +414,26 @@ Table: **Table 2**: Common torque converter problems and possible causes
 CONCLUSION
 ==========
 
-In the heavy equipment world, although a small mistake can lead to
+In the heavy equipment world, a small mistake can lead to
 catastrophic equipment break down, such as incorrectly back off system
-pressure relief upon replacing a new pump, if technicians are skillful,
-they can save companies time and money. Preventative maintenance is a good
-practice, yet there is always a chance equipment breaking down on duty.
+pressure upon replacing a new pump. Nevertheless, if technicians are skillful,
+they can easily prevent these types of mistake; thus saving companies time and money. Preventative maintenance is a good
+practice, yet there is always a chance equipment breaking down on duty. In fact,
 This phenomenon happens quite often, and the CAT 637G faces the same
-problems. Hopefully, the finding in this paper somewhat provides a 
+problem. Hopefully, findings in this paper give our technicians some basic diagnosis and troubleshooting instructions on cushion-hitch and torque converter of the CAT 637G. As the researched equipment is a typical scraper, technicians can apply these instruction to fix most scrapers in market.
 
 
 REFERENCES
 ==========
+
+<!--TODO LIST: markdown to docx -->
+<!--- List of Figures-->
+<!--list of tables-->
+<!--reference of table-->
+
+<!--Command used during prepare -->
+<!--Join 2 images: convert -gravity center 637G_scraper.png scraper_components.png -append o.png-->
+
+<!--Things to do when reformatting final docx-->
+<!--1. move table caption to bottom-->
+<!--2. check biblio of GOA -->
