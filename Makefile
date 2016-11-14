@@ -1,4 +1,4 @@
-pandoc_md_docx:
+pandoc_md_docx: drawing_pdf
 	pandoc --toc-depth 4 --bibliography=main.bib --csl=apa.csl --toc --reference-docx=ref.docx -s -S main.md -o main.docx
 
 latexmk:

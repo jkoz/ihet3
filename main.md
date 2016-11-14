@@ -33,11 +33,11 @@ abstract: |
     I am writing regard to a diagnosis and troubleshooting report for the Caterpillar 637G. The report collects reliable sources about common troubleshooting instructions for the scraper. This report will help HET technicians and students familiarize themselves with fixing common cushion-hitch hydraulic and torque converter problems. Thus, they can use these knowledge in their future jobs.\
     \
     The objective of the report is to provide basic troubleshooting skills for cushion-hitch and torque converter in the CAT 637G. In order to make it easy to comprehend the fixing procedures, the report also gives a quick explanation of the components and their functions. The report goes through following major sections:\
-        - Equipment description\
-        - Diagnostic and troubleshooting analysis\
-            - Generic troubleshooting process\
-            - Cushion-hitch hydraulic system and services\
-            - Torque converter fundamentals and services\
+      ●  Equipment description\
+      ●  Diagnostic and troubleshooting analysis\
+         ○  Generic troubleshooting process\
+         ○  Cushion-hitch hydraulic system and services\
+         ○  Torque converter fundamentals and services\
     \
     Citations from many reliable sources, such as the SIS web portal, articles, modules, and books are incorporated into the report. Basically, the paper utilizes information from the SIS portal as its first priority because it is more specific to my equipment. On the other hand, books, such as Heavy Equipment Systems are reliable sources for researching generic troubleshooting procedures.\
     \
@@ -52,18 +52,17 @@ abstract: |
 LIST OF FIGURES
 ============
 
-Figure 1: Mountain Mover with a telescoping bowl was invented in
-June, 1922. [@RLMBldng]
+1. Mountain Mover with a telescoping bowl was invented in June, 1922. [@RLMBldng]
 
-Figure 2: A modern tractor earthmoving scraper Caterpillar 637G
-[@THMPIndst]; an illustration of scraper’s components
+2. A modern tractor earthmoving scraper Caterpillar 637G [@THMPIndst]; an illustration of scraper’s components
 
-Figure 3: Cushion-hitch hydraulic components. [@GOASspns]
+3. Cushion-hitch hydraulic components. [@GOASspns]
 
-Figure 4: Cushion-hitch hydraulic system. [@SISCat]
+4. Cushion-hitch hydraulic system. [@SISCat]
 
-<!--Figure 5: Hydraulic motors and control modules of auger is in the Caterpillar 637G [@hvyqpmtrg]-->
+5. A stator located between two components can redirect fluid back to impeller [@AnglMdrndsl]
 
+6. Pressure tap for the torque converter output [@SISCat]
 
 INTRODUCTION
 ============
